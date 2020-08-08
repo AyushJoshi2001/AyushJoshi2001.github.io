@@ -488,11 +488,14 @@ nav{
 @media screen and (max-width: 450px){
 
     .big_text {
-    	font-size: 2rem;
+    	font-size: 2.2rem;
     }
 	
     .small_text {
-    	font-size: 14px;
+        font-size: 1.1rem;
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
     }
 	
 	
@@ -508,8 +511,11 @@ nav{
 
 	
     .block p {
-    	font-size: 14px;
-     }
+
+        width: 90%;
+        font-size: 15px;
+        margin: auto;
+    }
 	
     .block h2 {
     	font-size: 28px;
