@@ -442,6 +442,14 @@ nav{
 
 @media screen and (max-width: 597px){
 
+    .small_text {
+        text-align: justify;
+    }
+
+    .block p {
+        text-align: justify;
+    }
+
     #logo img {
         height: 30px;
         width: 30px;
