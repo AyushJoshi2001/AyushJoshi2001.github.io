@@ -481,7 +481,7 @@ nav{
 
     .about_subclass {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 }
 
@@ -500,9 +500,16 @@ nav{
 	
 	
     .block {
-        width: 100%;
-        padding: 10px 0px 10px 0px;
+        width: 90%;
+        height: 100%;
+        padding: 30px 0px 30px 0px;
         margin: 10px 0px 10px 0px;
+    }
+
+    .block img {
+        height: 250px;
+        width: 250px;
+        padding: 5px;
     }
 
     #block2 {
