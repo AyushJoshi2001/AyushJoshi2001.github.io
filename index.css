@@ -496,6 +496,7 @@ nav{
         width: 90%;
         margin: auto;
         margin-top: 10px;
+        text-align: justify;
     }
 	
 	
@@ -522,6 +523,7 @@ nav{
         width: 90%;
         font-size: 15px;
         margin: auto;
+        text-align: justify;
     }
 	
     .block h2 {
@@ -541,15 +543,30 @@ nav{
 
 }
 
-@media screen and (max-width: 283px){
+@media screen and (max-width: 325px){
+
+    .small_text {
+        font-size: 0.9rem;
+        width: 85%;
+        margin: auto;
+        margin-top: 10px;
+        text-align: justify;
+    }
 
     .block img{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
     }
 
     #main img {
         width: 6rem;
         height: 6rem;
+    }
+
+    .block p {
+        width: 80%;
+        font-size: 14px;
+        margin: auto;
+        text-align: justify;
     }
 }
