@@ -443,11 +443,12 @@ nav{
 @media screen and (max-width: 597px){
 
     .small_text {
-        text-align: justify;
+        width: 85%;
     }
 
     .block p {
         text-align: justify;
+        width: 80%;
     }
 
     #logo img {
@@ -501,10 +502,9 @@ nav{
 	
     .small_text {
         font-size: 1rem;
-        width: 90%;
+        width: 85%;
         margin: auto;
         margin-top: 10px;
-        text-align: justify;
     }
 	
 	
@@ -528,7 +528,7 @@ nav{
 	
     .block p {
 
-        width: 90%;
+        width: 80%;
         font-size: 15px;
         margin: auto;
         text-align: justify;
