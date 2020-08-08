@@ -487,6 +487,15 @@ nav{
 
 @media screen and (max-width: 450px){
 
+    .big_text {
+    	font-size: 2rem;
+    }
+	
+    .small_text {
+    	font-size: 14px;
+    }
+	
+	
     .block {
         width: 100%;
         padding: 10px 0px 10px 0px;
@@ -497,6 +506,16 @@ nav{
         margin: 1rem auto;
     }
 
+	
+    .block p {
+    	font-size: 14px;
+     }
+	
+    .block h2 {
+    	font-size: 28px;
+    }
+	
+	
     .gender_point {
         margin-left: 20px;
     }
