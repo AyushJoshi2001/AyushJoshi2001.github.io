@@ -214,6 +214,7 @@ nav{
     font-size: 20px;
     background: transparent;
     border: 2px solid white;
+    color: white;
 }
 
 #Query{
@@ -227,6 +228,7 @@ nav{
     height: 100px;
     background: transparent;
     border: 2px solid white;
+    color: white;
 }
 
 ::placeholder{
@@ -442,15 +444,6 @@ nav{
 
 @media screen and (max-width: 597px){
 
-    .small_text {
-        width: 85%;
-    }
-
-    .block p {
-        text-align: justify;
-        width: 80%;
-    }
-
     #logo img {
         height: 30px;
         width: 30px;
@@ -490,35 +483,28 @@ nav{
 
     .about_subclass {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
 
 @media screen and (max-width: 450px){
 
     .big_text {
-    	font-size: 2.1rem;
+    	font-size: 2.2rem;
     }
 	
     .small_text {
-        font-size: 1rem;
-        width: 85%;
+        font-size: 1.1rem;
+        width: 90%;
         margin: auto;
         margin-top: 10px;
     }
 	
 	
     .block {
-        width: 90%;
-        height: 100%;
-        padding: 30px 0px 30px 0px;
+        width: 100%;
+        padding: 10px 0px 10px 0px;
         margin: 10px 0px 10px 0px;
-    }
-
-    .block img {
-        height: 250px;
-        width: 250px;
-        padding: 5px;
     }
 
     #block2 {
@@ -528,10 +514,9 @@ nav{
 	
     .block p {
 
-        width: 80%;
+        width: 90%;
         font-size: 15px;
         margin: auto;
-        text-align: justify;
     }
 	
     .block h2 {
@@ -551,30 +536,15 @@ nav{
 
 }
 
-@media screen and (max-width: 325px){
-
-    .small_text {
-        font-size: 0.9rem;
-        width: 85%;
-        margin: auto;
-        margin-top: 10px;
-        text-align: justify;
-    }
+@media screen and (max-width: 283px){
 
     .block img{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     #main img {
         width: 6rem;
         height: 6rem;
-    }
-
-    .block p {
-        width: 80%;
-        font-size: 14px;
-        margin: auto;
-        text-align: justify;
     }
 }
